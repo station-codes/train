@@ -4,8 +4,8 @@
 
 * download the raspbian headless version
 * flash the sd card
-* wpa_supplicant.conf edit network
-* ```
+* wpa_supplicant.conf edit network 
+```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=<Insert country code here>
