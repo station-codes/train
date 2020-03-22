@@ -33,3 +33,11 @@ rx:  b'<T1 20 1>'
 ...
 ```
 
+## links
+
+https://github.com/DccPlusPlus/BaseStation/wiki/Commands-for-DCCpp-BaseStation
+
+https://docs.python-guide.org/dev/virtualenvs/
+
+https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/
+
