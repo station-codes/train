@@ -5,8 +5,7 @@
 * download the raspbian headless version
 * flash the sd card
 * wpa_supplicant.conf edit network
-> * 
-```
+> ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=<Insert country code here>
@@ -17,7 +16,7 @@ network={
 }
 ```
 * enable ssh
-> * SSH can be enabled by placing a file called ssh in to the boot folder. This flags the Pi to enable the SSH system on the next boot.
+> SSH can be enabled by placing a file called ssh in to the boot folder. This flags the Pi to enable the SSH system on the next boot.
 * install python3, python3-pip and pipenv
 
 ## getting started
