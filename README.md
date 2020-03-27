@@ -2,7 +2,7 @@
 
 ## setup
 
-* download the raspbian headless version
+* download the raspbian version
 * flash the sd card
 * wpa_supplicant.conf edit network 
 ```
@@ -33,6 +33,22 @@ rx:  b'<T1 20 1>'
 ...
 ```
 
+### update version 1.3.1
+<img src="doc/login.PNG" alt="login">
+<img src="doc/running.PNG">
+<img src="doc/stopsetstart.PNG">
+
+!pic
+
+## arduino libs
+
+Use Sketch/Include Library/Manage Library and install
+
+* SparkFun LP55231 Breakout Version 1.0.0
+* Adafruit VL6180X Version 1.0.6
+
+or import from Arduino/libs
+
 ## links
 
 https://github.com/DccPlusPlus/BaseStation/wiki/Commands-for-DCCpp-BaseStation
@@ -41,3 +57,4 @@ https://docs.python-guide.org/dev/virtualenvs/
 
 https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/
 
+https://learn.sparkfun.com/tutorials/lp55231-breakout-board-hookup-guide

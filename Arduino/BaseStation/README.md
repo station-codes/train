@@ -35,3 +35,9 @@ Since these modules are very layout-specififc, they are not included in the Mast
 
 -December 27, 2015
 
+
+Version 1.3.1
+
+Flightsense sensor and LEDboard
+
+-March 2020
