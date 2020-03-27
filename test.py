@@ -22,15 +22,18 @@ def simulation(ser):
     print('tx: ' + send)
     time.sleep(2)
     while 1:
-        send = '<t1 13 10 1>\n'
+        send = '<t1 13 5 1>\n'
         ser.write(str.encode(send))
-        time.sleep(3)
-        send = '<t1 13 5 0>\n'
+        time.sleep(12)
+        send = '<t1 13 15 0>\n'
         ser.write(str.encode(send))
-        time.sleep(4)
+        time.sleep(12)
+        send = '<t1 13 1 0>'
+        ser.write(str.encode(send))
+        time.sleep(2)
         send = '<0>\n'
         ser.write(str.encode(send))
-        time.sleep(60)
+        time.sleep(1)
         send = '<1>\n'
         ser.write(str.encode(send))
 
